@@ -57,8 +57,8 @@ The system can **autonomously understand user queries, decide actions, and use t
    ```bash
    pip install -r requirements.txt
 
-## Configuration
-1. Update the LM Studio URL in `agent.py` or set environment variable:
-   ```bash
-   export LM_STUDIO_URL="http://your-ip:1234/v1/chat/completions"
-text
+## ⚙️ Configuration
+
+1. Edit `agent.py` and update the LM Studio URL to match your setup:
+   ```python
+   LM_STUDIO_URL = "http://YOUR_IP:1234/v1/chat/completions"
